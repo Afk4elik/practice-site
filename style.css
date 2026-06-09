@@ -9,7 +9,6 @@ body {
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
@@ -26,6 +25,8 @@ body {
     text-align: center;
 
     box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+
+    margin-top: 100px;
 }
 
 h1 {
@@ -61,11 +62,20 @@ p {
 }
 
 footer {
-    margin-top: 30px;
+    margin-top: auto;
+
+    width: 100%;
 
     text-align: center;
 
-    color: white;
+    padding: 20px 0;
 
-    font-size: 14px;
+    background: rgba(0, 0, 0, 0.15);
+
+    color: white;
+}
+
+footer p {
+    color: white;
+    margin: 5px 0;
 }
