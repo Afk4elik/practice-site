@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #9face6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: white;
+    width: 420px;
+    padding: 40px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+}
+
+h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 24px;
+}
+
+.text {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    background: #229ED9;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 12px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #1677a8;
+}
